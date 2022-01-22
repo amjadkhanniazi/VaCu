@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ********************Navbar********************* */
+
+.brand {
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    color: #F0ECE3;
+    position: absolute;
+    margin: 0.5rem auto 0.5rem 1rem;
+
+}
+
+.brand:hover {
+    color: white;
+}
+
+ul{
+    margin: 0;
+    position: relative;
+}
+
+.navbar {
+    background-color: #191919;
+    height: 55px;
+    width: 100%;
+    position: relative;
+}
+
+.nav-lists {
+    display: inline-block;
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    margin: 1rem auto 1rem auto;
+    right: 3%;
+    
+}
+
+.list1 {
+    margin-right: 19%;
+}
+
+.list2 {
+    margin-right: 12%;
+}
+
+.list3 {
+    margin-right: 3%;
+}
+.nav-links {
+    text-decoration: none;
+    color: #8E806A;
+}
+
+.nav-links:hover {
+    color: white;
+}
+
+/****************************** Top Container ********************************/
+
+.top-container {
+text-align: center;
+position: relative;
+height: 100vh;
+width: 100%;
+background-image: url("/images/forest-5375005_1920.jpg");
+}
+
+h1{
+    margin: 0;
+    position: absolute;
+    top: 9.5rem;
+    left: 32rem;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    color: #F3F0D7;
+}
+
+h3 {
+    color: #EAE7C6;
+    position: absolute;
+    top: 6rem;
+    left: 48rem;
+    padding: 10px;
+    border-radius: 20px 10px 10px 20px;
+    border: 1px solid #D67D3E;
+    background-color: #D67D3E;
+}
+
+.para1 {
+    position: absolute;
+    top: 17rem;
+    left: 30rem;
+    width: 30%;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #EAE7C6;
+}
+
+.btn {
+    position: absolute;
+    bottom: 12rem;
+    left: 32rem;
+    padding: 10px 25px;
+    border-radius: 0 10px 0;
+    background-color: #D67D3E;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    box-shadow: none;
+}
+
+.btn:hover {
+    background-color: #041C32;
+    color: white;
+}
+
+.watch-btn {
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    position: absolute;
+    bottom: 12rem;
+    right: 32rem;
+    padding: 10px 25px;
+    border-radius: 10px 0px 10px 0px;
+    background-color: #D67D3E;
+}
+
+.watch-btn:hover {
+    background-color: #041C32;
+    color: white;
+}
+
+section {
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a:hover {
+    color: #041C32;
+
+}
